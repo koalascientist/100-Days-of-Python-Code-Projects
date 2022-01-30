@@ -8,10 +8,10 @@ The objective of the game is to get as many correct answers as possible. The gam
 
 ## Code structure
 
-**main.py** file contains the code for the game.
-**data.py** file contains the data (i.e. the list of questions/statements and their answers) for the game.
-**question_model.py** file contains the model for the questions used for the quiz game.
-**quiz_brain.py** file contains the model for all of the questioning and quizzing functionality of the game. It will manage the following actions: asking the questions, checking if the answer was correct and checking if the player is at the end of the quiz game. 
+**main.py** file contains the code for the game.  
+**data.py** file contains the data (i.e. the list of questions/statements and their answers) for the game.  
+**question_model.py** file contains the model for the questions used for the quiz game.  
+**quiz_brain.py** file contains the model for all of the questioning and quizzing functionality of the game. It will manage the following actions: asking the questions, checking if the answer was correct and checking if the player is at the end of the quiz game.  
 
 ### Question Class
 Attributes:
