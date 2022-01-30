@@ -26,16 +26,16 @@ Attributes:
 Attributes:
 - **question_number**  
 (int) The question number. This attribute keeps track on which question the player is currently on. The default value is 0, as the user will always start the quiz with the first question.  
-- **score**
+- **score**  
 (int) The player's score. This attribute keeps track of the score of the player. The default value is 0.  
- - **questions_list**
+ - **questions_list**  
 (list) Contains the list of all the questions used for the quiz. The attribute *question_number* is used to go through the list of questions which will be passed over to QuizBrain object when it gets initialized.  
 
 Methods:
-- **next_question()**
+- **next_question()**  
 Extracts the item for the quiz from the *questions_list* in dependence on which current *question_number* the player is on. Then, the user is asked for an input: True or False.  
-- **still_has_questions()**
+- **still_has_questions()**  
 Returns True if there are any questions remaining in the quiz, or False if no more questions are left.   
- - **check_answer()**
+ - **check_answer()**  
 Checks if the answer given by the player is correct or not, and keeps track of the player's score.   
    
