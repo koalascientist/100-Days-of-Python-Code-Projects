@@ -10,6 +10,6 @@ The aim of the game is to get as many as possible correct answers in a row. The 
 
 ## Files structure
 
-**art.py** file contains the ASCII logo for the HIgher or Lower Game.
-**main.py** file contains the code for the game.
+**art.py** file contains the ASCII logo for the HIgher or Lower Game.  
+**main.py** file contains the code for the game.  
 **game_data.py** file contains the data (i.e. a list of celebrity people with the number of followers on Instagram) for the game.
